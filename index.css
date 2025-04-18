@@ -1,0 +1,191 @@
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/Place Your Image Here (Double Click to Edit)11.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-content {
+    width: 400px;
+    height: 300px;
+  }
+  .bttn {
+    background-color: #e7631c;
+    border: none;
+  }
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 70vh;
+    }
+  }
+  @media (max-width: 480px) {
+    .hero-section {
+      height: 50vh;
+    }
+  }
+  body {
+    background-color: #303030;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  /* Dance Tour Section (Scoped) */
+  .dance-tour {
+    position: relative;
+    background-color: #ff5f1f;
+    padding-top: 60px;
+    color: white;
+  }
+  .dance-tour .dot-bg {
+    background-image: radial-gradient(black 1px, transparent 1px);
+    background-size: 10px 10px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .best-dance-section {
+min-height: 80vh;
+}
+
+  .dance-tour .tour-container {
+    position: relative;
+    z-index: 1;
+  }
+  .dance-tour .tour-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .dance-tour .tour-title h1 {
+    font-weight: bold;
+  }
+  .dance-tour .tour-card {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .dance-tour .tour-card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .pricing-section {
+background-color: #1e1e1e;
+color: white;
+}
+
+.pricing-card {
+background-color: #ff6600;
+border-radius: 10px;
+padding: 2rem;
+color: white;
+}
+
+.price-box {
+background-color: #333;
+color: white;
+padding: 0.5rem;
+border-radius: 5px;
+font-weight: bold;
+}
+.orange-bg {
+background: linear-gradient(to bottom right, #ff6600, #ff6600);
+color: white;
+}
+
+.dot-pattern {
+background-image: radial-gradient(white 1px, transparent 0);
+background-size: 20px 20px;
+background-repeat: repeat;
+opacity: 0.1;
+position: absolute;
+inset: 0;
+}
+
+.btn-dark-custom {
+background-color: #333;
+border: none;
+padding: 0.5rem 1.5rem;
+font-weight: bold;
+}
+
+.text-section {
+position: relative;
+z-index: 2;
+}
+
+.amazing-dance-section {
+min-height: 80vh;
+}
+.stats-section {
+background-color: #2b2b2b;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.stats-section h2 {
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.stats-section p {
+color: #ccc;
+margin-top: 10px;
+margin-bottom: 40px;
+}
+
+.stat-item h3 {
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.stat-item span {
+font-size: 1.1rem;
+color: #bbb;
+}
+.footer {
+background-color: #1c1c1c;
+color: #fff;
+padding: 60px 0;
+font-family: 'Arial', sans-serif;
+}
+.footer h5 {
+font-size: 1rem;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.footer p {
+font-size: 0.9rem;
+color: #ccc;
+}
+.footer a {
+color: #ccc;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+font-size: 0.9rem;
+}
+.social-icons a {
+color: #fff;
+font-size: 18px;
+margin-right: 15px;
+background-color: #fff;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+color: #1c1c1c;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.social-icons a:hover {
+color: #ccc;
+}
